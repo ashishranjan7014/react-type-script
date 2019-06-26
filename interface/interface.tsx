@@ -1,7 +1,7 @@
 interface Props {
   count?: number
-  name?:string,
-  number?:number
+  name?: string,
+  number?: number
 }
 
 interface SignupState {
@@ -18,7 +18,7 @@ interface LoginState {
   email: string,
   password: string,
   message: string,
-  token:string
+  token: string
 };
 
 export {
