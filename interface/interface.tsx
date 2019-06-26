@@ -4,7 +4,7 @@ interface Props {
   number?:number
 }
 
-interface signupState {
+interface SignupState {
   name: string,
   email: string,
   phone: string,
@@ -14,7 +14,7 @@ interface signupState {
   message: string,
 };
 
-interface loginState {
+interface LoginState {
   email: string,
   password: string,
   message: string,
@@ -23,6 +23,6 @@ interface loginState {
 
 export {
   Props,
-  signupState,
-  loginState
+  SignupState,
+  LoginState
 }

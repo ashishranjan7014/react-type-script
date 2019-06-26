@@ -7,16 +7,16 @@ const SignUp = lazy(() => import('../components/signup'));
 
 
 class Routers extends Component {
-    render() {
-        return (
-            <Router history={history}>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <Route exact path="/" component={Homepage}></Route>
-                    <Route exact path="/signup" component={SignUp}></Route>
-                </Suspense>
-            </Router>
-        );
-    }
+  render() {
+    return (
+      <Router history={history}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Route exact path="/" component={Homepage}></Route>
+          <Route exact path="/signup" component={SignUp}></Route>
+        </Suspense>
+      </Router>
+    );
+  }
 }
 
 export default Routers;
